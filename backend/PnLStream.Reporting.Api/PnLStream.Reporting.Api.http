@@ -1,0 +1,6 @@
+@PnLStream.Reporting.Api_HostAddress = http://localhost:5114
+
+GET {{PnLStream.Reporting.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

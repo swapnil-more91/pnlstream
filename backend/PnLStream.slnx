@@ -1,0 +1,11 @@
+<Solution>
+  <Folder Name="/Solution Items/">
+    <File Path="Readme.md" />
+  </Folder>
+  <Project Path="PnL.FileIngester/PnLStream.FileIngester.csproj" />
+  <Project Path="PnLStream.Common/PnLStream.Common.csproj" />
+  <Project Path="PnLStream.FeedProcessor/PnLStream.FeedProcessor.csproj" />
+  <Project Path="PnLStream.PersistenceService/PnLStream.PersistenceService.csproj" />
+  <Project Path="PnLStream.Reporting.Api/PnLStream.Reporting.Api.csproj" />
+  <Project Path="PnlStream.ValidationEngine/PnlStream.ValidationEngine.csproj" />
+</Solution>

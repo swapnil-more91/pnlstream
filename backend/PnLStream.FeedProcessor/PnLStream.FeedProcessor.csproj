@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>dotnet-PnLStream.FeedProcessor-c3f19ec7-8a55-4ee3-892c-a16142023815</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Confluent.Kafka" Version="2.14.2" />
+    <PackageReference Include="Microsoft.AspNetCore.SignalR.Client" Version="10.0.8" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="10.0.8" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PnLStream.Common\PnLStream.Common.csproj" />
+    <ProjectReference Include="..\PnLStream.PersistenceService\PnLStream.PersistenceService.csproj" />
+    <ProjectReference Include="..\PnlStream.ValidationEngine\PnlStream.ValidationEngine.csproj" />
+  </ItemGroup>
+</Project>
