@@ -41,10 +41,9 @@ PnLStream
 
 ### Prerequisites
 
-* .NET 8 SDK
+* .NET 10 SDK
 * SQL Server
 * Kafka
-* Node.js
 * Angular CLI
 
 ### Step 1 – Start SQL Server
